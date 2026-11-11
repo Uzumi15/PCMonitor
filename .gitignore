@@ -1,0 +1,48 @@
+# PCMonitor - Git Ignore
+
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# SQLite offline buffer
+agent/buffer.db
+agent/buffer.db-*
+*.db-journal
+
+# Logs
+*.log
+logs/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

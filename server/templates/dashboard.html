@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PCMonitor Dashboard</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>PCMonitor Dashboard</h1>
+        <p>Мониторинг компьютеров в реальном времени</p>
+    </header>
+
+    <main>
+        <h2>Подключённые компьютеры</h2>
+
+        <div id="computers">
+            <p>Загрузка данных...</p>
+        </div>
+        <section class="history-section">
+            <h2>История нагрузки</h2>
+            <label for="computer-select">Выберите компьютер:</label>
+            <select id="computer-select">
+                <option value="">Загрузка компьютеров...</option>
+            </select>
+             <div class="charts">
+                <div class="chart-card">
+                    <h3>Загрузка CPU (%)</h3>
+                    <canvas id="cpu-chart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Использование RAM (%)</h3>
+                    <canvas id="ram-chart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+-r agent/requirements.txt
+-r server/requirements.txt
+
+pytest
+httpx
