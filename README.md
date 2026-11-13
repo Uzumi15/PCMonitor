@@ -368,3 +368,9 @@ python -m pytest tests/ -v
 Реализованы сбор метрик, передача на сервер, хранение истории, SQLite-буфер, Dashboard и графики CPU/RAM.
 
 Проект разработан для изучения Python, клиент-серверной архитектуры, REST API, баз данных и мониторинга компьютерных систем.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0.
+
+See the [LICENSE](LICENSE) file for details.
